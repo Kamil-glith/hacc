@@ -40,5 +40,5 @@ done
 
 for i in "${ips[@]}"
 do
-   ssh uczen:Pa\$\$word@$i < commands.txt
+   ssh user:password@$i < commands.txt
 done
